@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodluyoruz HTML</title>
+</head>
+<body>
+    
+<p>Lorem ipsum <strong> bold </strong> <em> italik </em> dolor sit amet. <a href="#">sss</a></p>
+
+<h2>blo</h2>
+
+<h1 id="header">HTML</h1>
+<h2>Lİnklerle Çalışmak</h2>
+<ul>
+    <li><a href="https://kodluyoruz.org" target="_blank" >
+        kodluyoruz sayfasına gidilecek</a></li>
+    <li><a href="iletisim.html">İletişim Sayfasına git</a></li>
+    <li><a href="#footer"> En Alt Kısma Git</a></li>
+    <li><a href="mailto:info@kodluyoruz.com"> Mail At</a>
+    <li><a href="tel:05551116677">Telefon et</a></li>
+</ul>
+
+
+
+
+
+
+<h2>Görsellerle Çalışmak</h2>
+<img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,w_540,h_230/https://assets.ubuntu.com/v1/95ef22cd-mascots-lobster+jj.png"  alt="Ubuntu görseli" width="" >
+
+<img src="https://picsum.photos/600/300" alt="">
+
+<img src="img\971-600x300.jpg" alt="aaa" onload="resimyuklendi()">
+<!-- <script>
+    function resimyuklendi() {
+        alert("resimyuklendi");
+        
+    }
+</script> -->
+
+<picture>
+    <source
+
+    srcset="https://picsum.photos/100/300" media="(min-width: 600px)"
+    >
+
+
+    <img src="https://picsum.photos/200/300" alt="">
+</picture>
+
+
+<H2>Emmet / Zen Coding</H2>
+<!-- 
+    etiket isimlerini direkt verebiliyoruz
+    + kardeş öğe
+    > içinde öge
+    ^ yukarı çık ve öge oluştur
+    lorem
+    lorem4 dört kelimelik lorem üret
+
+    . -> class
+    #  -> id
+
+ -->
+  <!-- h1+h2 -->
+ <h1></h1>
+ <h2></h2>
+
+ <!-- h1+p+p+h2+p+p+p -->
+
+ <h1></h1>
+ <p></p>
+ <p></p>
+ <h2></h2>
+ <p></p>
+ <p></p>
+ <p></p>
+
+  <!-- h1+p*2+h2+p*3 -->
+
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+
+<!-- ul>li -->
+
+<ul>
+    <li></li>
+</ul>
+<!-- ul>li*5 -->
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<!-- 
+ul>li*3^p+h2+p   -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p></p>
+<h2></h2>
+<p></p>
+
+
+<!-- p>lorem4 -->
+
+<p>Lorem ipsum dolor sit.</p>
+
+<!-- h3.deneme -->
+
+<h3 class="deneme"></h3>
+
+<!-- .deneme -->
+<div class="deneme"></div>
+
+<!-- h3#idolsun>lorem1 -->
+<h3 id="idolsun">Lorem.</h3>
+
+
+<!-- h3.deneme#idolusun>lorem1 -->
+<h3 class="deneme" id="idolusun">Lorem.</h3>
+
+
+<!-- ul>li.tepki -->
+<ul>
+    <li class="tepki"></li>
+</ul>
+<!-- ul>.red-text -->
+<ul>
+    <li class="red-text"></li>
+    <li class="red-text"></li>
+    <li class="red-text"></li>
+    <li class="red-text"></li>
+    <li class="red-text"></li>
+    <li class="red-text"></li>
+</ul>
+<h2 id="footer">En Alt Kısım</h2>
+<p>Lorem ipsum dolor sit amet consectetur.</p>
+<p><a href="#header">En Üst Kısma Git</a></p>
+
+
+
+</body>
+</html>
