@@ -1,0 +1,108 @@
+       /* Açıklama satırı ekleme 
+        Multiline text
+       class için . 
+       .text-red{  } 
+       #idadi {}
+       */
+/*  css selectors */
+/* 
+       ul>li:first-child { color:green; }
+       li:last-child{color: aqua;}
+       li:nth-child(odd){color: red;}
+       li:nth-child(even){background-color: blue;}
+       li:nth-child(3n){color : purple;}
+
+
+       .color-blue.fw-normal{ color:blue;
+            font-weight:normal; }
+
+       h1,h2,h3 { font-size: 30px;
+            color:#855488
+       }
+
+       .text-red { color:red ;
+       }
+
+       .fs-14  { font-size: 14px; 
+
+       }
+
+       .fs-20 { font-size: 20px;
+       }
+
+       .fs-30 { font-size: 30px;
+       }
+
+       .bold { font-weight: bold
+       }
+       #first-article { font-size: 40px;
+        color: magenta;
+       }
+       #ilk-satir-farkli::first-line { background-color: black;
+        }
+       #ilk-satir-farkli:hover { background-color: red;
+        }
+       #ilk-satir-farkli:active { background-color: cyan; }
+      
+       a[href^="https"] { color:red}
+ */
+.body { margin: 0;
+    padding: 0;
+}
+
+.container { width: 1000px;
+/* margin-left: auto;
+margin-right: auto; */
+margin: 50px auto 0 auto;
+}
+
+.left-bar { 
+    width: 200px;
+float: left;}
+
+.content { 
+    width: 790px;
+float: left;
+margin-left: 10px;}
+
+.card   { width: 20%;
+float: left;
+padding: 5%;
+background-color: grey;
+/* margin-left: 1.5%;
+margin-top: 3%; */
+margin: 3% 1.5% ;
+
+
+border-radius: 20px;}
+
+.clear { clear: both;}
+.box {
+            width: 300px;
+            height: 300px;  
+            padding: 10px;
+            /* margin-right: 10px;             
+            margin-left: 10px; */
+            margin-right: 10px;
+            float: left;
+        }
+.bg-red { background-color:red;
+        }
+.bg-green { background-color:green;
+        }
+.bg-yellow { background-color:yellow;
+        }
+
+.button {   
+    background: linear-gradient(135deg,rgba(112,73,186,0.6785938262939453),rgba(233,80,149,0.3910938262939453))   ;
+    border-radius: 25px;
+    color: white;
+    padding: 10px;
+    text-decoration: none !important;
+    text-align: center !important;
+    -webkit-box-shadow: 11px 1px 8px -2px rgba(0,0,0,0.38);
+-moz-box-shadow: 11px 1px 8px -2px rgba(0,0,0,0.38);
+box-shadow: 11px 1px 8px -2px rgba(0,0,0,0.38);
+    
+
+  }
