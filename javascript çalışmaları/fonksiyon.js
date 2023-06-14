@@ -79,3 +79,11 @@ let HTMLinfo =`<span style="color:red"> Color REEDDD</span>`
 
 domIdWriteInfo("greeting", HTMLinfo)
 domIdWriteInfo("info", greeting2("Lorem","Ipsum"))
+
+
+function hello(name){
+        console.log(`Hello ${name}`)
+
+}
+
+hello("Javascript")
